@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(14, 12, 14);
+    background-color: rgb(194, 184, 183);
+}
+
+.tabs {
+    /* margin: auto; */
+    width: 34%;
+    height: 50px;
+    text-decoration: none;
+    /* background-color: aqua; */
+}
+
+.tabs__nav {
+    display: flex;
+}
+
+.tabs__nav-btn {
+    font-size: 20px;
+    color: rgb(7, 48, 39);
+    background-color: rgb(233, 233, 233);
+    padding: 13px 30px;
+    height: 100%;
+    width: 31%;
+    border: 0;
+    border-right: 1px solid rgb(46, 20, 20);
+
+    transition: all ease 500ms;
+}
+
+.tabs__nav-btn:last-child {
+    border-right: none;
+}
+
+.tabs__nav-btn.active {
+    background-color: rgba(138, 209, 22, 0.507);
+}
+
+.tabs__nav-btn:hover {
+    background-color: rgba(226, 130, 21, 0.493);
+}
+
+.tabs__nav-btn.active:hover {
+    background-color: rgba(138, 209, 22, 0.507);
+}
+
+.tabs__content {
+    padding: 20px;
+    background-color: rgb(155, 182, 125);
+
+
+}
+
+.tabs__item {
+    display: none;
+}
+
+.tabs__item.active {
+    display: block;
+}
