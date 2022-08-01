@@ -1,0 +1,22 @@
+html {
+    font-family: Arial, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+}
+canvas {
+    border: 1px solid black;
+}
+h2{
+    text-align: left;
+    color: black;
+    margin: 0;
+    font-weight: bold;
+}
